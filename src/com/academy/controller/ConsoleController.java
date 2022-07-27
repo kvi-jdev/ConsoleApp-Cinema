@@ -51,7 +51,7 @@ public class ConsoleController {
             switch (input) {
                 case MenuConstant.THREE -> {
                     info("Завершение программы");
-                    isTrue = false;
+                    System.exit(1);
                 }
                 case MenuConstant.ONE -> registration();
                 case MenuConstant.TWO -> authorization();
